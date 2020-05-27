@@ -57,6 +57,10 @@ provider:
 #    - exclude-me.js
 #    - exclude-me-dir/**
 
+plugins:
+  - serverless-offline
+  - serverless-dynamodb-local
+
 functions:
   hello:
     handler: handler.hello

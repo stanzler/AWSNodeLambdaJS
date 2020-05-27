@@ -1,0 +1,24 @@
+{
+  "name": "candidate-service",
+  "version": "1.0.0",
+  "description": "experimenting with aws lambda development using node.js",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "severless",
+    "aws",
+    "lambda",
+    "nodejs",
+    "dynamo"
+  ],
+  "author": "David L. Stanzler",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.685.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^6.2.0"
+  }
+}
